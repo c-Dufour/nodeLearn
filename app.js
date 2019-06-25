@@ -22,6 +22,9 @@ switch (command) {
     case 'read':
     notes.getNote(argv.title);
         break;
+		case 'great contrib':
+	notes.greatContrib();
+	break;
     default:
         console.log('command not recognized');
         break;
