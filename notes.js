@@ -12,10 +12,14 @@ var removeNote = (title) => {
 var getAll = () => {
     console.log('getting all notes...');
 };
+var greatContrib = () => {
+    console.log('great contrib...');
+};
 
 module.exports = {
     addNote,
     getAll,
     getNote,
+	greatContrib,
     removeNote
 };
