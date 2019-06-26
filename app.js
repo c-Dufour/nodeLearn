@@ -10,7 +10,7 @@ const argv = yargs.argv;
 var command = process.argv[2];
 
 switch (command) {
-    case 'radu':
+    case 'add':
     notes.addNote(argv.title,argv.body);
         break;
     case 'list':
