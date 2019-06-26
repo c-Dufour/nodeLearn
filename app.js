@@ -13,7 +13,7 @@ switch (command) {
     case 'dev':
     notes.addNote(argv.title,argv.body);
         break;
-    case 'list':
+    case 'master':
         notes.getAll();
         break;
     case 'remove':
